@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">alc_phase_1_asiimirwe_abraham</string>
+    <string name="welcome_to_alc_4_0">Welcome to ALC 4.0</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="slack_user">\@Asiimirwe Abraham</string>
+    <string name="slack_username_label">Slack Username:</string>
+    <string name="username">Asiimirwe Abraham</string>
+    <string name="track">Android</string>
+    <string name="track_label">Track:</string>
+    <string name="country">Uganda</string>
+    <string name="country_label">Country:</string>
+    <string name="email_label">Email:</string>
+    <string name="email">arishianaces94@gmail.com</string>
+    <string name="phone_number_label">Phone Number:</string>
+    <string name="phone_number">256788604752</string>
+    <string name="notification_error_ssl_cert_invalid">Failed to validate the certificate</string>
+</resources>

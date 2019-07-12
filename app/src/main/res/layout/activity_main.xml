@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_alc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:title="ALC 4 Phase 1"
+            app:titleTextColor="@android:color/white"
+            app:titleTextAppearance="@style/ToolbarTextAppearance"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_alc_4_0"
+            android:textSize="38sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/aladin"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tb_alc"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="128dp"
+            android:text="@string/about_alc"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/aladin"
+            app:layout_constraintTop_toBottomOf="@id/tv_welcome"
+            app:layout_constraintStart_toStartOf="@id/tb_alc"
+            app:layout_constraintEnd_toEndOf="@id/tb_alc"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="22sp"
+            android:text="@string/my_profile"
+            android:fontFamily="@font/aladin"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/btn_about"
+            app:layout_constraintStart_toStartOf="@id/tb_alc"
+            app:layout_constraintEnd_toEndOf="@id/tb_alc"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
